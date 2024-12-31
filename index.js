@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 8000;
 
 app.use(
   cors({
-    origin: "https://taklchatapp.vercel.app", 
+    origin: "https://taklchatapp.vercel.app/", 
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"], 
   })
